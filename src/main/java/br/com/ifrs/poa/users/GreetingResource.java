@@ -1,4 +1,4 @@
-package br.com.ifrs.poa;
+package br.com.ifrs.poa.users;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

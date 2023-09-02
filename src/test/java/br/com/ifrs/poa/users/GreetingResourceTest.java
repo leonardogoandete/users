@@ -1,4 +1,4 @@
-package br.com.ifrs.poa;
+package br.com.ifrs.poa.users;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

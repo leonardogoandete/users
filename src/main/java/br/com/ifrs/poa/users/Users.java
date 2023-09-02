@@ -1,4 +1,4 @@
-package br.com.ifrs.poa;
+package br.com.ifrs.poa.users;
 
 import io.smallrye.jwt.build.Jwt;
 import jakarta.annotation.security.PermitAll;
@@ -21,6 +21,7 @@ public class Users {
                 .upn("leonardogoandete")
                 .groups(new HashSet<>(Arrays.asList("User", "Admin")))
                 .claim(Claims.full_name, "Leonardo Goandete")
-                .sign();
+                .innerSign()
+                .encrypt();
     }
 }

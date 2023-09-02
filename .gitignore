@@ -41,6 +41,3 @@ nb-configuration.xml
 
 # Plugin directory
 /.quarkus/cli/plugins/
-/src/main/resources/keys/privateKey.pem
-/src/main/resources/keys/rsaPrivateKey.pem
-/src/main/resources/keys/keystore.jks

@@ -1,0 +1,17 @@
+## Envoriment
+{  "dev": {
+    "token": "colocar token aqui"
+  }
+}
+
+
+###
+GET http://localhost:8080/users/jwt
+
+###
+GET http://localhost:8081/first/second/5/6
+Authorization: Bearer {{token}}
+
+###
+GET http://localhost:8081/first/sum/4/6
+Authorization: Bearer {{token}}

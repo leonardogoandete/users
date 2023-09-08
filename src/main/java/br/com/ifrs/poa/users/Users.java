@@ -17,7 +17,7 @@ public class Users {
     @PermitAll
     @Produces(MediaType.TEXT_PLAIN)
     public String generate() {
-        return Jwt.issuer("http://localhost:8080")
+        return Jwt.issuer("https://users-pw2-14aab27e2886.herokuapp.com")
                 .upn("leonardogoandete")
                 .groups(new HashSet<>(Arrays.asList("User", "Admin")))
                 .claim(Claims.full_name, "Leonardo Goandete")
